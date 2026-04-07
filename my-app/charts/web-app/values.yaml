@@ -1,0 +1,17 @@
+replicaCount: 1
+
+image:
+  repository: gcr.io/project-sei-prototype/my-web-app
+  tag: "v1"
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 5000
+
+# Connection details for the database
+db:
+  host: "database-svc"
+  password: "password123"
+
