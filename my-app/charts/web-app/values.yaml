@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 
 image:
   repository: gcr.io/project-sei-prototype/my-web-app
