@@ -1,4 +1,4 @@
 # You can override sub-chart values here if needed
 web-app:
-  replicaCount: 2  # Example: scaling up only for production
+  replicaCount: 4  # Example: scaling up only for production
 
